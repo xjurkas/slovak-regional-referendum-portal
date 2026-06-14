@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import io.github.palexdev.materialfx.controls.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<?import io.github.palexdev.mfxresources.fonts.MFXFontIcon?>
+<AnchorPane maxHeight="60.0" minHeight="60.0" prefHeight="60.0" prefWidth="436.0" styleClass="header-toolbar"
+            stylesheets="@CSS/styles.css" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="com.oop.referendumserver.view.controllers.NavigationController" fx:id="rootPane">
+    <MFXButton fx:id="goBackButton" contentDisplay="GRAPHIC_ONLY" maxHeight="50.0" minHeight="50.0"
+               style="-fx-background-color: none" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="200.0"
+               AnchorPane.topAnchor="0.0">
+        <graphic>
+            <ImageView fitHeight="30.0" preserveRatio="true">
+                <Image url="@images/back.png"/>
+            </ImageView>
+        </graphic>
+        <padding>
+            <Insets bottom="5.0" left="5.0" right="5.0" top="5.0"/>
+        </padding>
+    </MFXButton>
+
+    <MFXButton fx:id="mainPageButton" contentDisplay="GRAPHIC_ONLY" maxHeight="50.0" minHeight="50.0"
+               style="-fx-background-color: none" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="140.0"
+               AnchorPane.topAnchor="0.0">
+        <graphic>
+            <ImageView fitHeight="30.0" preserveRatio="true">
+                <Image url="@images/home.png"/>
+            </ImageView>
+        </graphic>
+        <padding>
+            <Insets bottom="5.0" left="5.0" right="5.0" top="5.0"/>
+        </padding>
+    </MFXButton>
+
+    <MFXButton fx:id="notificationButton" contentDisplay="GRAPHIC_ONLY" maxHeight="50.0" minHeight="50.0"
+               style="-fx-background-color: none" styleClass="mfx-info-dialog" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="70.0"
+               AnchorPane.topAnchor="0.0">
+        <graphic>
+            <MFXFontIcon description="fas-bell" size="32.0" style="-mfx-color: white"/>
+        </graphic>
+        <padding>
+            <Insets bottom="5.0" left="5.0" right="5.0" top="5.0"/>
+        </padding>
+    </MFXButton>
+    <MFXButton fx:id="resultViewButton" contentDisplay="GRAPHIC_ONLY" maxHeight="50.0" minHeight="50.0"
+               style="-fx-background-color: none" styleClass="mfx-info-dialog" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="10.0"
+               AnchorPane.topAnchor="0.0">
+        <graphic>
+            <MFXFontIcon description="fas-list" size="32.0" style="-mfx-color: white"/>
+        </graphic>
+        <padding>
+            <Insets bottom="5.0" left="5.0" right="5.0" top="5.0"/>
+        </padding>
+    </MFXButton>
+    <MFXButton fx:id="signOutButton" alignment="CENTER_RIGHT" text="LOG OUT" AnchorPane.bottomAnchor="0.0"
+               AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0"
+               style="-fx-background-color: none; -fx-text-fill: white">
+        <font>
+            <Font size="6.0"/>
+        </font>
+    </MFXButton>
+</AnchorPane>

@@ -1,0 +1,41 @@
+/*
+ * Copyright (C) 2022 Parisi Alessandro
+ * This file is part of MaterialFX (https://github.com/palexdev/MaterialFX).
+ *
+ * MaterialFX is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU Lesser General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ *
+ * MaterialFX is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU Lesser General Public License for more details.
+ *
+ * You should have received a copy of the GNU Lesser General Public License
+ * along with MaterialFX.  If not, see <http://www.gnu.org/licenses/>.
+ */
+
+* {
+    -mfx-charcoal: #445055;
+    -mfx-onyx: #353935;
+
+    -mfx-red: #FF5757;
+    -mfx-purple: #966AE4;
+    -mfx-orange: #FF9E4E;
+    -mfx-light-blue: #66D2DF;
+    -mfx-pink: #FF6DE4;
+    -mfx-yellow: #EDC707;
+    -mfx-blue: #6A81DF;
+    -mfx-green: #80DC46;
+    -mfx-dark-blue: #0E103D;
+
+
+    -mfx-text-he: rgba(0, 0, 0, 0.87); /* High Emphasis */
+    -mfx-text-me: rgba(0, 0, 0, 0.60); /* Medium Emphasis*/
+    -mfx-text-disabled: rgba(0, 0, 0, 0.38); /* Disabled */
+
+    -common-gradient: linear-gradient(to right bottom, #c4008b, #d00085, #dc007f, #e60b79, #ef1872, #f5276b, #fa3564, #fe415e, #ff5158, #ff5f52, #ff6c4e, #ff794b);
+
+
+}

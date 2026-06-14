@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import io.github.palexdev.materialfx.controls.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane stylesheets="@CSS/styles.css" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.oop.referendumserver.view.controllers.ReferendumCreateController">
+    <fx:include fx:id="navigation" source="navigate-buttons.fxml" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+
+
+    <HBox alignment="TOP_CENTER" prefHeight="60.0" spacing="30" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="60.0">
+        <padding>
+            <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+        </padding>
+        <MFXRadioButton id="simpleRadioButton" fx:id="simpleRadioButton" alignment="CENTER" prefWidth="90.0" text="Simple" />
+        <MFXRadioButton id="quotaRadioButton" fx:id="quotaRadioButton" alignment="CENTER" prefWidth="90.0" text="Quota" />
+        <MFXRadioButton id="conditionalRadioButton" fx:id="conditionalRadioButton" alignment="CENTER" prefWidth="90.0" text="Conditional" />
+    </HBox>
+
+    <VBox fx:id="mainDataVbox" spacing="20" AnchorPane.leftAnchor="0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="140">
+        <padding>
+            <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+        </padding>
+
+        <VBox fx:id="passThresholdVbox" spacing="10">
+            <Label alignment="CENTER" prefWidth="176" text="Pass threshold" />
+            <MFXSlider id="passthresholdSlider" fx:id="passThresholdSlider" decimalPrecision="2" alternativeUnitIncrement="20.0" layoutX="26.0" layoutY="283.0" prefHeight="0.0" prefWidth="176.0" />
+
+        </VBox>
+
+        <VBox fx:id="expectedParticipationVbox" spacing="10">
+            <Label fx:id="expectedParticipationLabel" alignment="CENTER" prefWidth="176" text="Expected participation" />
+            <MFXSlider id="expectedParticipationSlider" fx:id="expectedParticipationSlider" alternativeUnitIncrement="20.0" layoutX="26.0" layoutY="311.0" prefHeight="0.0" prefWidth="176.0" />
+        </VBox>
+
+        <VBox fx:id="localVoteQuotaVbox" spacing="10">
+            <Label fx:id="localVoteQuotaLabel" alignment="CENTER" prefWidth="176" text="Local vote quota" />
+            <MFXSlider id="minLocalVotersSlider" fx:id="minLocalVotersSlider" decimalPrecision="2" alternativeUnitIncrement="20.0" layoutX="26.0" layoutY="345.0" prefHeight="0.0" prefWidth="176.0" />
+        </VBox>
+
+        <MFXDatePicker id="datePicker" fx:id="datePicker" prefWidth="176.0" />
+
+        <Button fx:id="createQuestionButton" alignment="BOTTOM_CENTER" contentDisplay="CENTER" layoutX="319.0" layoutY="73.0" mnemonicParsing="false" text="Pridat otazku" />
+
+        <VBox fx:id="questionVbox" alignment="TOP_CENTER" layoutX="311.0" layoutY="104.0" prefHeight="240.0" prefWidth="275.0" spacing="20.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1"/>
+
+        <Button id="createReferendumButton" fx:id="createReferendumButton" alignment="BOTTOM_CENTER" contentDisplay="CENTER" layoutX="234.0" layoutY="338.0" mnemonicParsing="false" text="Vytvorit referendum" />
+
+    </VBox>
+
+
+</AnchorPane>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox alignment="CENTER" spacing="20.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1">
+    <children>
+        <Label id="titleLabel"/>
+        <HBox alignment="BASELINE_CENTER">
+            <children>
+                <Label id="descriptionLabel"/>
+                <Separator orientation="VERTICAL"/>
+                <Label id="resultLabel"/>
+                <Separator orientation="VERTICAL"/>
+                <Label id="totalParticipationLabel"/>
+                <Separator orientation="VERTICAL"/>
+                <Label id="numOfYesLabel"/>
+            </children>
+        </HBox>
+    </children>
+</VBox>

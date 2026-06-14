@@ -1,0 +1,105 @@
+data:
+  regions:
+    - id: BA
+      name: Bratislavsky kraj
+      description:
+        - '<b>Rozloha: 2 052,6 km²'
+        - '<b>Populacia:'' 728 370 obyvateľov'
+        - '<b>GDP: 30,709 mil'
+        - 'Je to najmenší kraj na Slovensku. Leží na juhozápade Slovenska. Susedí s Rakúskom a Maďarskom a je charakteristický nížinami, pohoriami a povodiami riek, predovšetkým Dunaja.'
+        - 'Medzi prírodné zdroje patrí štrk, hlina, drevo, minerály a zemný plyn.'
+        - 'Región sa môže pochváliť rozmanitými chránenými oblasťami a pestrou administratívnou štruktúrou.'
+        - 'Z demografického hľadiska má Bratislavský kraj najvyššiu hustotu osídlenia na Slovensku, ktorú určuje najmä hlavné mesto Bratislava. K rastu počtu obyvateľov významne prispieva migrácia, pričom priemerný vek obyvateľstva je 42 rokov.'
+    - id: TT
+      name: Trnavsky kraj
+      description:
+        - '<b>Rozloha: 4 146,3 km² '
+        - '<b>Populacia:'' 565 573 obyvateľov'
+        - '<b>GDP: 12,102 mil'
+        - 'Nachádza sa v západnej časti krajiny a hraničí s Českou republikou, Rakúskom a Maďarskom.'
+        - 'Z geografického hľadiska sa tu nachádzajú nížiny a pohorie Malé Karpaty.'
+        - 'V regióne panuje teplé a mierne teplé podnebie s priemernou ročnou teplotou okolo 10 °C.'
+        - 'Vodné zdroje vrátane povodia Dunaja sú bohaté, s významnými vodnými dielami, ako je vodná nádrž Gabčíkovo.'
+        - 'Medzi nerastné zdroje patrí ropa, zemný plyn, vápenec a štrk.'
+        - 'Trnavský kraj sa môže pochváliť mnohými chránenými územiami vrátane 4 chránených krajinných oblastí a 8 národných prírodných rezervácií.'
+        - 'Administratívne ho tvorí 7 okresov. Kraj má 251 obcí, pričom významné mestské obyvateľstvo je sústredené v 17 mestách, najmä v Trnave.'
+        - 'S hustotou osídlenia 136 obyvateľov na km² sa radí na druhé miesto najhustejšie osídlených krajov, pričom medzi jednotlivými okresmi sú rozdiely. Najvyššiu hustotu má okres Trnava, naopak najnižšiu okres Senica.'
+    - id: TN
+      name: Trenciansky kraj
+      description:
+        - '<b>Rozloha: 4 501,8 km² '
+        - '<b>Populacia:'' 570 675 obyvateľov'
+        - '<b>GDP: 10,020 mil'
+        - 'Nachádza sa na severozápade a hraničí s Českou republikou a niekoľkými slovenskými krajmi.'
+        - 'Z geografického hľadiska zahŕňa rozmanitú krajinu vrátane nížin, hôr a údolí riek.'
+        - 'Región sa môže pochváliť nerastným bohatstvom s ložiskami uhlia, bauxitu a stavebných materiálov.'
+        - 'Nachádza sa tu rozsiahla sieť chránených území vrátane šiestich chránených krajinných oblastí a 11 národných prírodných rezervácií.'
+        - 'Administratívne sa región skladá z deviatich okresov. Zahŕňa 276 obcí, pričom viac ako polovica obyvateľov žije v mestách, najmä v Trenčíne, Prievidzi a Považskej Bystrici.'
+        - 'Hustota obyvateľstva sa v rámci kraja líši, pričom rovinatejšie oblasti sú hustejšie osídlené ako horské regióny.'
+    - id: NR
+      name: Nitriansky kraj
+      description:
+        - '<b>Rozloha: 6 343,8 km² '
+        - '<b>Populacia:'' 670 696 obyvateľov'
+        - '<b>GDP: 11,242 mil'
+        - 'Nachádza sa na juhozápade a hraničí s Maďarskom, Banskou Bystricou, Trenčínom a Trnavou.'
+        - 'Terén regiónu je prevažne rovinatý, s niekoľkými pahorkatinami a nížinami, ideálny pre poľnohospodárstvo.'
+        - 'Je známy svojou úrodnou pôdou, dostatkom vodných zdrojov a riekami, ako sú Váh a Dunaj.'
+        - 'Z hospodárskeho hľadiska je Nitriansky kraj významný, s rozmanitými priemyselnými odvetviami, ako je automobilový, strojársky a potravinársky priemysel.'
+        - 'Sídlia tu významné spoločnosti, ako napríklad Jaguar Land Rover.'
+        - 'Darí sa tu poľnohospodárstvu, región je špičkovým producentom plodín, ako je pšenica, jačmeň a hrozno.'
+        - 'Región sa môže pochváliť bohatým kultúrnym dedičstvom s historickými pamiatkami, ako sú Levický hrad a Nitriansky hrad. Je tiež centrom umenia a vzdelávania s množstvom divadiel, galérií a univerzít.'
+        - 'Rozvíja sa tu cestovný ruch, návštevníkov lákajú atrakcie ako termálne pramene a hrady. '
+    - id: ZA
+      name: Zilinsky kraj
+      description:
+        - '<b>Rozloha: 6 808,4  km² '
+        - '<b>Populacia:'' 688 106 obyvateľov'
+        - '<b>GDP: 12,396 mil'
+        - 'Je to tretí najväčší kraj Slovenska ktorý sa nachádza na strednom Slovensku.'
+        - 'Jeho rozmanitá krajina siaha od údolí a nížin až po horské oblasti, ako sú Západné Tatry, Nízke Tatry a Malá Fatra.'
+        - 'Región je známy svojimi outdoorovými aktivitami, s bohatými možnosťami pre turistiku, vodné športy a zimné aktivity.'
+        - 'Podnebie sa mení od mierne teplého až po chladné a vlhké, pričom významným vodným tokom je rieka Váh.'
+        - 'K nerastným zdrojom patrí kameň na stavbu, vápenec na výrobu cementu a ložiská rašeliny.'
+        - 'Žilinský kraj je bohatý na prírodné krásy, nachádzajú sa tu štyri národné parky a tri chránené krajinné oblasti.'
+        - 'Je rozdelený na 11 okresov a 315 obcí'
+    - id: BB
+      name: Banskobystricky kraj
+      description:
+        - '<b>Rozloha: 9 454  km² '
+        - '<b>Populacia:'' 617 777  obyvateľov'
+        - '<b>GDP: 9,892 mil'
+        - 'Je to najväčší kraj na Slovensku a zaberá takmer pätinu rozlohy krajiny.'
+        - 'Nachádza sa na juhu stredného Slovenska a hraničí s Maďarskom, Košickým, Trenčianskym, Žilinským a Nitrianskym krajom.'
+        - 'Jeho krajina sa mení od vysokohorských oblastí na severe cez členité pohoria a doliny a končí rovinami Juhoslovenskej kotliny na juhu.'
+        - 'Región má bohatú banícku tradíciu s historickými náleziskami zlata, striebra a medi, hoci banícka činnosť upadá. Významné sú silikátové ložiská pri Lučenci a magnezitové rudy pri Revúcej.'
+        - 'Banskobystrický kraj sa môže pochváliť štyrmi národnými parkami a štyrmi chránenými krajinnými oblasťami, ako aj množstvom prírodných pamiatok a rezervácií.'
+        - 'Člení sa na 13 okresov a 516 obcí, pričom v mestách žije viac ako polovica obyvateľov. Najväčšími mestami sú Banská Bystrica a Zvolen.'
+    - id: KE
+      name: Kosicky kraj
+      description:
+        - '<b>Rozloha: 6 754,3  km² '
+        - '<b>Populacia:'' 779 505 obyvateľov'
+        - '<b>GDP: 13,289 mil'
+        - 'Je to štvrtý najväčší kraj , ktorý sa nachádza na juhovýchode Slovenska a hraničí s Maďarskom, Ukrajinou a ďalšími slovenskými regiónmi.'
+        - 'Jeho podiel na počte obyvateľov Slovenska bol 14,4 %.'
+        - 'Jeho geografia siaha od vysočín, ako je vrch Stolica, až po nížiny, ako je povodie rieky Bodrog.'
+        - 'Podnebie regiónu je rôznorodé, od chladnejšieho na severe po teplejšie na juhovýchode.'
+        - 'Košický kraj je bohatý na minerály vrátane železa, striebra a magnezitu.'
+        - 'Nachádzajú sa tu dva národné parky, dve chránené krajinné oblasti a množstvo rezervácií a pamiatok.'
+        - 'Administratívne sa člení na 11 okresov a 440 obcí, pričom najväčším mestom sú Košice.'
+    - id: PO
+      name: Presovsky kraj
+      description:
+        - '<b>Rozloha: 8 972,7  km² '
+        - '<b>Populacia:'' 808,090 obyvateľov'
+        - '<b>GDP: 9,995 mil'
+        - 'Je to druhý najväčší kraj na Slovenskusa, ktorý sa rozprestiera na severovýchode Slovenska.'
+        - 'Na severe hraničí s Poľskom, na východe s Ukrajinou a na juhu a západe s ďalšími slovenskými regiónmi, preto sa vyznačuje rozmanitou geografiou.'
+        - 'Prešovský kraj sa môže pochváliť rôznym podnebím - od vysokých vrchov, ako je Gerlachovský štít (najvyšší bod Slovenska), až po nižšie kotliny a doliny.'
+        - 'Jeho členitý terén zahŕňa pohoria ako Tatry, Ľubovnianska vrchovina a Spišsko-šarišské medzihorie.'
+        - 'Región je bohatý na nerastné suroviny vrátane kamennej soli, vápenca a mangánovej rudy.'
+        - 'Nachádza sa tu päť národných parkov, dve chránené krajinné oblasti a množstvo rezervácií a pamiatok.'
+        - 'Administratívne sa člení na 13 okresov a 665 obcí, pričom najväčším mestom je Prešov.'
+
+
