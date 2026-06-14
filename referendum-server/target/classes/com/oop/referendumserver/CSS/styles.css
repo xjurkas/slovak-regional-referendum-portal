@@ -1,0 +1,76 @@
+@import 'MFXColors.css';
+
+.mfx-text-field, mfx-password-field {
+    -fx-border-color: -mfx-blue;
+}
+
+.floating-text {
+    -fx-text-fill: -mfx-blue;
+}
+
+.mfx-button {
+    -fx-background-color: -mfx-blue;
+    -fx-text-fill: white;
+    -fx-font-size: 14;
+}
+
+.grid-background {
+    -fx-background-color: white;
+    -fx-background-radius: 10;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.2), 10, 0.12, -1.0, 2.0);
+}
+
+#validatedField:invalid {
+    -fx-border-color: -mfx-red;
+}
+
+#validatedField:invalid .floating-text {
+    -fx-text-fill: -mfx-red;
+}
+
+#validatedField:invalid .mfx-font-icon {
+    -mfx-color: -mfx-red;
+}
+
+#validationLabel {
+    -fx-font-family: 'Open Sans SemiBold';
+    -fx-font-size: 11;
+}
+
+.header-toolbar {
+    -fx-background-color: -mfx-dark-blue;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.2), 10, 0.12, -1.0, 2.0);
+}
+
+.header {
+    -fx-font-family: 'Open Sans ExtraBold';
+    -fx-font-size: 24;
+    -fx-text-fill: white;
+}
+
+.snackbar-toast {
+    -fx-background-color: white;
+    -fx-background-radius: 10;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.2), 10, 0.12, -1.0, 2.0)
+}
+
+
+#likeToggleButton {
+    -mfx-selected-color: -common-gradient;
+    -mfx-selected-border-color: transparent;
+    -fx-text-fill: transparent;
+}
+
+#likeToggleButton .mfx-text-field {
+    visibility: hidden;
+    -fx-max-height: 0;
+    -fx-pref-height: 0;
+}
+
+#likeToggleButton:selected .mfx-font-icon {
+    -mfx-color: white;
+}
+
+#likeToggleButton:selected .mfx-ripple-generator {
+    -mfx-paused: true;
+}

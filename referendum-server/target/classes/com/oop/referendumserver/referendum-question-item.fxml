@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox alignment="CENTER" prefHeight="97.0" prefWidth="164.0" spacing="20.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1">
+    <children>
+        <Label id="questionLabel"/>
+        <HBox alignment="BASELINE_CENTER">
+            <children>
+                <RadioButton mnemonicParsing="false" text="Ano" id="yesButton" />
+                <RadioButton layoutX="14.0" layoutY="47.0" mnemonicParsing="false" text="Nie" id="noButton" />
+            </children>
+        </HBox>
+    </children>
+</VBox>

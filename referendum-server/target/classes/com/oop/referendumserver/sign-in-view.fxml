@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import io.github.palexdev.materialfx.controls.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<?import javafx.scene.text.Font?>
+<AnchorPane stylesheets="@CSS/styles.css" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.oop.referendumserver.view.controllers.SignInController">
+   <AnchorPane styleClass="header-toolbar" prefHeight="60.0" prefWidth="Infinity" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+        <Label text="Portál pre referendá Slovenských krajov" AnchorPane.leftAnchor="10.0" styleClass="header">
+         <padding>
+            <Insets bottom="10.0" left="10.0" top="10.0" />
+         </padding>
+
+            <font>
+                <Font name="System Italic" size="25.0"/>
+            </font>
+
+        </Label>
+   </AnchorPane>
+
+    <VBox alignment="CENTER" spacing="20.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="60.0">
+        <padding>
+            <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+        </padding>
+        <VBox alignment="CENTER" maxWidth="400" prefHeight="400" prefWidth="400" spacing="20" styleClass="grid-background">
+
+            <MFXTextField id="validatedField" fx:id="usernameTextField" floatMode="BORDER" floatingText="Username" maxWidth="200.0" />
+            <Label id="validationLabel" fx:id="usernameValidationLabel" maxWidth="200" textFill="#ef6e6b" visible="false" wrapText="true" />
+
+
+            <MFXPasswordField id="validatedField" fx:id="passwordTextField" floatMode="BORDER" floatingText="Password" maxWidth="200.0" />
+            <Label id="validationLabel" fx:id="passwordValidationLabel" maxWidth="200" textFill="#ef6e6b" visible="false" wrapText="true" />
+
+            <MFXButton fx:id="signInButton" buttonType="RAISED" minHeight="40.0" minWidth="90.0" text="Sign in" />
+
+
+        </VBox>
+
+    </VBox>
+</AnchorPane>

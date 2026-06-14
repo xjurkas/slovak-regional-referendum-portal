@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="com.oop.referendumserver.view.controllers.ReferendumFormController"
+            prefHeight="400.0" prefWidth="600.0" fx:id="rootPane">
+    <fx:include source="navigate-buttons.fxml" fx:id="navigation" AnchorPane.topAnchor="0" AnchorPane.leftAnchor="0"
+                AnchorPane.rightAnchor="0"/>
+    <VBox AnchorPane.rightAnchor="0" AnchorPane.leftAnchor="0" AnchorPane.topAnchor="70" spacing="20" alignment="CENTER">
+        <Label fx:id="referendumTitle"/>
+        <ListView fx:id="questionListView"/>
+        <Button text="Odoslat" fx:id="sendButton" onAction="#sendVote"/>
+    </VBox>
+</AnchorPane>
